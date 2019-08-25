@@ -1,0 +1,24 @@
+{
+  "name": "watch-store-package",
+  "version": "1.0.0",
+  "description": "package for project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/de-evg/Watch.git"
+  },
+  "author": "de-evg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/de-evg/Watch/issues"
+  },
+  "homepage": "https://github.com/de-evg/Watch#readme",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "gulp": "^4.0.2"
+  }
+}
