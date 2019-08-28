@@ -1,0 +1,106 @@
+.promo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.promo__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 176px;
+  padding-left: 111px;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 45px;
+  color: #1B1A17;
+}
+
+.promo__title p {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.promo__desc {
+  margin: 0;
+  margin-bottom: 65px;
+  padding: 0;
+  padding-left: 111px;
+  width: 270px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  color: rgba(27, 26, 23, 0.82);
+}
+
+.promo__link {
+  box-sizing: border-box;
+  display: inline-block;
+  flex-basis: 64px;
+  min-height: 64px;
+  width: 205px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 110px;
+  padding: 27px 0 0 0;
+  color: #FFFFFF;
+  background-color: #444240;
+}
+
+.promo__product {
+  position: absolute;
+  top: -60px;
+  right: -773px;
+  display: flex;
+}
+
+.promo__price {
+  position: relative;
+  margin: 0;
+  margin-top: 135px;
+  padding: 0;
+  font-family: 'Prata', 'Georgia', serif;
+  font-size: 16px;
+  color: #1B1A17;
+}
+
+.promo__price span {
+  font-size: 19px;
+}
+
+.promo__price::after {
+  position: absolute;
+  content: '';
+  top: 11px;
+  right:  -70px;
+  width: 50px;
+  height: 1px;
+  background-color: #8b8371;
+}
+
+.promo__diametr {
+  position: relative;
+  margin: 0;
+  margin-right: 25px;
+  align-self: flex-end;
+  padding: 0;
+  padding-bottom: 140px;
+  font-family: 'Prata', 'Georgia', serif;
+  font-size: 16px;
+  color: #1B1A17;
+}
+
+.promo__diametr::after {
+  position: absolute;
+  content: '';
+  top: 11px;
+  left:  -70px;
+  width: 50px;
+  height: 1px;
+  background-color: #8b8371;
+}

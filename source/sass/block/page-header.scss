@@ -1,0 +1,50 @@
+.page-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-height: 759px;
+  overflow: hidden;
+}
+
+.page-header::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 15px;
+  width: 32%;
+  height: 759px;
+  background-color: #FFFFFF;
+  z-index: -1;
+}
+
+.page-header::after {
+  position: absolute;
+  content: '';
+  top: -94px;
+  right: 15px;
+  width: 944px;
+  height: 931px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, rgba(234, 227, 212, 0), rgb(234, 227, 212));
+  z-index: -2;
+}
+
+.page-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 47px;
+  padding-top: 17px;
+}
+
+.page-header__wrapper--left-column {
+  display: flex;
+  width: 550px;
+  flex-wrap: wrap;
+}
+
+.page-header__inner {
+  display: flex;
+  margin-right: 100%;
+}
