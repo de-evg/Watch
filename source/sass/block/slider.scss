@@ -1,0 +1,31 @@
+.slider {
+  padding-top: 52px;
+  padding-bottom: 15px;
+  background: $bgcSliderTypeOne;
+}
+
+.slider__wrapper {
+  padding-left: 175px;
+  padding-right: 220px;
+}
+
+.slider__image {
+  width: 521px;
+  height: 414px;
+}
+
+.slider__item {
+  display: flex;
+}
+
+.slider__item--wrapper {
+  padding-left: 64px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider__toggle {
+  padding-top: 20px;
+  padding-left: 365px;
+}

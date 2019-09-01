@@ -1,0 +1,25 @@
+.toggle__button--back {
+  width: 5px;
+  height: 12px;
+  background-color: transparent;
+  background-image: url('../img/arrow_right.png');
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.toggle__button--next {
+  width: 5px;
+  height: 12px;
+  background-color: transparent;
+  background-image: url('../img/arrow_left.png');
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.toggle__current-slide {
+  padding-left: 10px;
+  padding-right: 15px;
+  font-family: $fontTypeThree;
+  font-size: 12px;
+  color: $colorTypeTwo;
+}
