@@ -1,0 +1,44 @@
+.popular__title {
+  margin: 0;
+  margin-right: 5%;
+  padding-top: 79px;
+  font-family: 'Playfair Display', 'Geogia', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: $colorTypeOne;
+  text-align: center;
+}
+
+.popular__link--all-products {
+  position: relative;
+  margin-bottom: 27px;
+  padding-right: 165px;
+  display: block;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  color: #444240;
+  text-align: right;
+}
+
+.popular__link--all-products::after {
+  position: absolute;
+  content: '';
+  right: 165px;
+  bottom: -5px;
+  width: 100px;
+  height: 1px;
+  background-color: $bgcDecorationLineTypeOne;
+}
+
+.popular__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 0 98px 0 98px;
+  width: 1170px;
+}
+
+.popular__list--item {
+  margin-bottom: 40px;
+}
