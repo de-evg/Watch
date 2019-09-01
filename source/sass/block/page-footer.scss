@@ -1,0 +1,40 @@
+.page-footer {
+  padding-top: 67px;
+  padding-bottom: 67px;
+  padding-left: 185px;
+  padding-right: 185px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $colorTypeSix;
+}
+
+.page-footer__title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 17px;
+  text-transform: uppercase;
+  font-family: $fontTypeTwo;
+  font-size: 14px;
+  color: $colorTypeSeven;
+  letter-spacing: 0.98px;
+}
+
+.page-footer__phone,
+.page-footer__email {
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.page-footer__list li {
+  margin-bottom: 9px;
+}
+
+.page-footer__about-company--link,
+.page-footer__menu--link,
+.page-footer__garanty--link,
+.page-footer__phone,
+.page-footer__email {
+  font-family: $fontTypeTwo;
+  font-size: 12px;
+  color: $colorTypeFour;
+}

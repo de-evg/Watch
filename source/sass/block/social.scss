@@ -16,19 +16,51 @@
 
 .social__item--fb {
   background: url('../img/facebook_icon.svg');
+  background-repeat: no-repeat;
   width: 9px;
   height: 17px;
 }
 
 .social__item--inst {
-
   background: url('../img/instagram_icon.svg');
+  background-repeat: no-repeat;
   width: 18px;
   height: 18px;
 }
 
 .social__item--tw {
   background: url('../img/twitter_icon.svg');
+  background-repeat: no-repeat;
   width: 17px;
   height: 14px;
+}
+
+.social--horizontal {
+  flex-direction: row;
+  padding: 0;
+}
+
+.social--horizontal .social__item {
+  margin-right: 30px;
+}
+
+.social--horizontal .social__item--fb {
+  background: url('../img/facebook_icon2.svg');
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 22px;
+}
+
+.social--horizontal .social__item--inst {
+  background: url('../img/instagram_icon2.svg');
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 24px;
+}
+
+.social--horizontal .social__item--tw {
+  background: url('../img/twitter_icon2.svg');
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 18px;
 }
