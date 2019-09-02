@@ -5,15 +5,19 @@
 .slider__wrapper {
   padding-top: 52px;
   padding-bottom: 15px;
-  padding-left: 175px;
-  padding-right: 220px;
+
 }
 
 .slider__item {
   display: flex;
 }
 
+.slider__item img {
+  width: 521px;
+}
+
 .slider__item--wrapper {
+  width: 933px;
   padding-left: 64px;
   padding-top: 60px;
   display: flex;
