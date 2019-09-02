@@ -1,11 +1,14 @@
 .page-footer {
+  background-color: $colorTypeSix;
+}
+
+.page-footer--inner {
   padding-top: 67px;
   padding-bottom: 67px;
   padding-left: 185px;
   padding-right: 185px;
   display: flex;
   justify-content: space-between;
-  background-color: $colorTypeSix;
 }
 
 .page-footer__title {
